@@ -1,0 +1,31 @@
+{
+  "default_accuracy": 0.8455284552845529,
+  "tuned_accuracy": 0.8536585365853658,
+  "best_params": {
+    "metric": "euclidean",
+    "n_neighbors": 16,
+    "weights": "uniform"
+  },
+  "features": [
+    "Gender",
+    "Married",
+    "Dependents",
+    "Education",
+    "Self_Employed",
+    "Property_Area",
+    "ApplicantIncome",
+    "CoapplicantIncome",
+    "LoanAmount",
+    "Loan_Amount_Term",
+    "Credit_History"
+  ],
+  "k_experiments": {
+    "3": 0.8292682926829268,
+    "5": 0.8455284552845529,
+    "7": 0.8455284552845529,
+    "9": 0.8536585365853658,
+    "11": 0.8455284552845529,
+    "13": 0.8455284552845529,
+    "15": 0.8536585365853658
+  }
+}
